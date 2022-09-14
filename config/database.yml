@@ -1,0 +1,16 @@
+development:
+  adapter: sqlite3
+  database: db/development.sqlite3
+
+test:
+  adapter: sqlite3
+  database: db/test.sqlite3
+
+production:
+  adapter: postgresql
+  database: db/production.sqlite3
+  host: ec2-3-229-165-146.compute-1.amazonaws.com
+  Database: d70td2eqmlsc4p
+  User: aosadjpvbtaxrx
+  Port: 5432
+  Password: 4d3d59c39c7873a2cc1bf50b6a4d3bd7d6543ac92266b898c75437002087730b
